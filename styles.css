@@ -1,83 +1,53 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/*  your css code here. If applicable */
+body{
+	width:90%;
+	margin:auto;
 }
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    padding: 20px;
+.title{
+	font-size:50px;
+	text-align:center;
 }
-
-.container {
-    max-width: 800px;
-    margin: 0 auto;
+span{
+	color:blue;
 }
-
-h1 {
-    text-align: center;
-    color: #333;
-    margin-bottom: 20px;
+input{
+	height:30px;
+	width:100%;
 }
-
-.form-group {
-    margin-bottom: 20px;
+#submit{
+	background-color:#1877F2;
+	color:white;
+	padding:6px;
+	border-radius:3px;
+	border:0px;
 }
-
-label {
-    display: block;
-    margin-top: 10px;
+button:hover{
+	cursor:pointer;
 }
-
-input {
-    width: 100%;
-    padding: 10px;
-    margin-top: 5px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
+table{
+	margin-top:40px;
+	width:100%;
+	border-collapse:collapse;
 }
-
-button#submit {
-    width: 100%;
-    padding: 10px;
-    margin-top: 15px;
-    background-color: #28a745;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+tr{
+	border-bottom:2px solid #B0B0B0;
 }
-
-button#submit:hover {
-    background-color: #218838;
+tr.border{
+	border-bottom:2px solid black;
 }
-
-.table {
-    width: 100%;
-    margin-top: 20px;
-    border-collapse: collapse;
+tr{
+	background-color:#F8F8F8;
 }
-
-.table th, .table td {
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: center;
+th{
+	background-color:white;
+	width:27%;
+	text-align:left;
 }
-
-.table th {
-    background-color: #f2f2f2;
+td,th{
+	padding:10px 5px;
 }
-
-.delete {
-    background-color: #dc3545;
-    color: white;
-    border: none;
-    padding: 5px 10px;
-    cursor: pointer;
-    border-radius: 3px;
-}
-
-.delete:hover {
-    background-color: #c82333;
+.delete{
+	background-color:red;
+	border:none;
+	padding:2px;
 }
