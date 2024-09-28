@@ -1,53 +1,43 @@
-/*  your css code here. If applicable */
+
+/* /*  your css code here. If applicable */
 body{
-	width:90%;
-	margin:auto;
+	display : flex ;
+	flex-direction : column ;
 }
-.title{
-	font-size:50px;
-	text-align:center;
+#bookForm{
+	display : flex ;
+	flex-direction : column ;
 }
-span{
-	color:blue;
-}
+
 input{
-	height:30px;
-	width:100%;
+	border-radius : 3px ;
+	padding : 5px ;
 }
-#submit{
-	background-color:#1877F2;
-	color:white;
-	padding:6px;
-	border-radius:3px;
-	border:0px;
+button{
+	background-color : rgb(100,150, 255);
+	color : white ;
+	width : 100px ;
+	height : 30px;
+	border-radius : 3px ;
 }
-button:hover{
-	cursor:pointer;
+.table{
+	width : 100% ;	
 }
-table{
-	margin-top:40px;
-	width:100%;
-	border-collapse:collapse;
+ table , th , td {
+		border : 1px solid black ;
+ }
+td,th {
+	width : 100px;
 }
-tr{
-	border-bottom:2px solid #B0B0B0;
+	
+thead th{
+	text-align : left;
 }
-tr.border{
-	border-bottom:2px solid black;
+
+.delete {
+    cursor : pointer;
+    color : red;
 }
-tr{
-	background-color:#F8F8F8;
-}
-th{
-	background-color:white;
-	width:27%;
-	text-align:left;
-}
-td,th{
-	padding:10px 5px;
-}
-.delete{
-	background-color:red;
-	border:none;
-	padding:2px;
+span {
+	color : white ;
 }
